@@ -1,0 +1,81 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+header{
+  background:#ffccbc;
+  height: 250px;
+  text-align:center;
+  border: 1px solid #80deea;
+}
+
+.p1{
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+  font-size: 80px;
+  letter-spacing: 2px;
+  color: #000063;
+}
+
+.p2{
+
+font-family: 'Pacifico', cursive;
+font-family: 'Kaushan Script', cursive;
+color: #000063;
+font-size: 20px;
+
+}
+#p3{
+  color: #000063;
+  font-size: 15px;
+  font-family: 'Asap Condensed', sans-serif;
+  padding: 10px;
+}
+
+button{
+height:50px;
+width:250px;
+background:#81e8dd;
+color:#000063;
+border-radius:5px;
+border: 2px solid #000063;
+outline: none;
+font-size:30px;
+}
+#btd{
+  height:40px;
+  width:150px;
+  background:#81e8dd;
+  color:#000063;
+  border-radius:5px;
+  border: 2px solid #000063;
+  outline: none;
+  font-size:30px;
+}
+#usuarios{
+display: grid;
+grid-template-columns: 500px;
+grid-template-rows:repeat(12,700px);
+grid-gap: 6px;
+justify-content: center;
+background-image:url('../img/fondo.png');
+background-position: cover;
+
+}
+
+
+.container{
+  background:#f5f5f5;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #80deea;
+  border-radius: 5px;
+}
+.im{
+
+  margin-top:15px;
+  border-radius: 2px;
+}
